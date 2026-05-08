@@ -1,0 +1,85 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/Aaed/Desktop/Menasat/src/styles.css": {
+    "file": "assets/styles-B34zWjqR.css",
+    "src": "C:/Users/Aaed/Desktop/Menasat/src/styles.css"
+  },
+  "_server-BN3_8PH1.js": {
+    "file": "assets/server-BN3_8PH1.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-BNOILj3n.js": {
+    "file": "assets/worker-entry-BNOILj3n.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-BN3_8PH1.js"
+    ]
+  },
+  "src/assets/logo.png": {
+    "file": "assets/logo-D69RIXZM.png",
+    "src": "src/assets/logo.png"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-N5HDuoQN.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-BN3_8PH1.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-B34zWjqR.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-DzkCInJc.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-BN3_8PH1.js"
+    ],
+    "assets": [
+      "assets/logo-D69RIXZM.png"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-DfF7FcUl.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BNOILj3n.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-Df-wHWiR.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BNOILj3n.js"
+    ]
+  }
+}
